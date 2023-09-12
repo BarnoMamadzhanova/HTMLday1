@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intermediate Exercise</title>
+</head>
+<body>
+    <form>
+        <h2>Registration Form</h2>
+        <label for="firstname" >First Name</label>
+        <input type="text"  name="firstname" id="firstname"  placeholder="First Name"><br>
+        <br>
+        <label for="lastname" >Lastname</label>
+        <input type="text"  name="lastname" id="lastname"  placeholder="Last Name"><br>
+        <br>
+        <label for="course" >Course:</label>
+        <select id="course"  name="course">
+            <option value="HTML" >HTML</option>
+            <option value="CSS"  selected>CSS</option>
+            <option value="Javascript" >Javascript</option>
+            <option value="PHP">PHP</option>
+        </select>
+        <br>
+        <p>Gender:</p>
+        <input type="radio"  name="gender" value="male"  checked> Male<br>
+        <input type="radio"  name="gender" value="female">  Female<br>
+        <br>
+        <p>Hobbys:</p>
+        <input type="checkbox" name="checkbox" value="programming" checked> Programming<br>
+        <input type="checkbox" name="checkbox" value="basketball"> Basketball<br>
+        <input type="checkbox" name="checkbox" value="football"> Football<br>
+        <input type="checkbox" name="checkbox" value="reading novel"> Reading Novel<br>
+        <br>
+        <label for="phone" >Phone</label>
+        <input type="number"  name="phone" id="phone"  placeholder="Phone Number"><br>
+        <br>
+        <label for="message" >Adress: </label>
+        <br>
+        <textarea id="message"  name="message" rows="5"  cols="30">
+        </textarea>
+        <br>
+        <label for="Email" >Email:</label>
+        <input type="email"  name="Email" id="Email"  placeholder="Your Email"><br>
+        <br>
+        <label for="password" >Password:</label>
+        <input type="password"  name="password" id="password"  placeholder="Your Password"><br>
+        <br>
+        <input type="submit"  value="Submit">
+        <input type="submit"  value="Reset">
+    </form>
+</body>
+</html>
